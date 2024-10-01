@@ -124,32 +124,39 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Data Scientist / AI Acceleration Analyst',
+    company_name: 'Arizona State University',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Aug 2024 - Present',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Associate Software Engineer',
+    company_name: 'Asigma Capital Advisory Services Limited',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Jun 2024 - Aug 2024',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Software Engineer',
+    company_name: 'Asigma Capital Advisory Services Limited',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Jan 2022 - Jun 2024',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Business Intelligence Analyst (Remote)',
+    company_name: 'Everybody Loves Languages',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Dec 2021 - Feb 2022',
+  },
+  {
+    title: 'Business and Data Analyst',
+    company_name: 'Asigma Capital Advisory Services Limited',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'Nov 2019 - Jan 2022',
   },
 ];
 
