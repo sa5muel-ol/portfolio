@@ -37,14 +37,13 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          Driven by a passion for data and artificial intelligence, I specialize in developing innovative,
-          ethical AI solutions. With a strong foundation in data science and machine learning, 
-          I aim to harness technology for real-world impact, focusing on transparency, fairness, 
-          and responsible AI deployment. My expertise spans predictive modeling, data analytics,
-          and leveraging AI for business strategy, all while ensuring that these advancements 
-          contribute positively to society. I am committed to using my skills to drive business 
-          transformation and solve complex challenges. Let’s build a future where AI and
-          data science serve humanity responsibly.
+          Driven by a passion for data and artificial intelligence, I specialize in developing innovative and 
+          ethical AI solutions. With a solid foundation in data science and machine learning, I harness 
+          technology to create real-world impact, emphasizing transparency, fairness, and responsible AI
+          deployment. My expertise includes predictive modeling, data analytics, and integrating AI into 
+          business strategies, ensuring these advancements benefit society. Committed to driving business 
+          transformation and solving complex challenges, I strive to build a future where AI and data 
+          science serve humanity responsibly. Let’s collaborate to make this vision a reality.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

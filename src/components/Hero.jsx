@@ -42,11 +42,11 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Samuel
+                Samuel,
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Aspiring data scientist,passionate about leveraging ethical AI to drive impactful solutions. <br className="sm:block hidden" />
+              an aspiring data scientist passionate about leveraging ethical AI to develop solutions that make a meaningful impact.<br className="sm:block hidden" />
               
               
             </p>
