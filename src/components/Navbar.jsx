@@ -21,9 +21,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <img
-            src='samuel2.png' // your logo comes here
+            src='adobe.png' // your logo comes here
             alt="logo"
-            className="sm:w-[60px] sm:h-[60px] w-[45px] h-[45px] object-contain"
+            className="sm:w-[90px] sm:h-[90px] w-[90px] h-[90px] object-contain"
           />
             
           {/* if you have text you want besides your logo it comes here.

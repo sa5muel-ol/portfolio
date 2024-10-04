@@ -161,10 +161,11 @@ const experiences = [
 ];
 
 const projects = [
+  
   {
-    id: 'project-1',
-    name: 'Symos',
-    description: 'An agricultural linkages platform giving farmers access to premium markets.',
+    id: 'project-6',
+    name: 'NY Times Top Modeling',
+    description: 'Topic Modeling on NY Times Articles for the past 2 years using Latent Dirichlet Allocation (LDA) with Gensim.',
     tags: [
       {
         name: 'react',
@@ -179,9 +180,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: 'projects/symos.png',
+    image: 'public/projects/nytimes.webp',
     //repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://symos.io/',
+    //demo: 'https://symos.io/',
   },
   {
     id: 'project-2',
@@ -204,7 +205,7 @@ const projects = [
     ],
     image: '/projects/databridge.jpg',
     repo: 'https://github.com/sa5muel-ol/DataBridge',
-    demo: 'https://databridge.streamlit.app/',
+    //demo: 'https://databridge.streamlit.app/',
   },
   {
     id: 'project-3',
@@ -247,33 +248,33 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: 'projects/dashboard.png',
+    image: 'projects/Australia.png',
     //repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
     demo: 'https://lookerstudio.google.com/reporting/7fe8e38d-f9b0-482e-925c-8d7a7013b777',
   },
   {
-    id: 'project-5',
-    name: 'FullStac Africa',
-    description:
-        'This is a single-page app built with React for FulStac Africa.',
+    id: 'project-1',
+    name: 'Symos',
+    description: 'An agricultural linkages platform giving farmers access to premium markets.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'mongodb',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
-    image: 'projects/fullstac.jpg',
-    //repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://fullstac.africa/',
+    image: 'projects/symos.png',
+    //repo: 'https://github.com/shaqdeff/KomiKult',
+    demo: 'https://symos.io/',
   },
+  
 ];
 
 export { services, technologies, experiences, projects };
