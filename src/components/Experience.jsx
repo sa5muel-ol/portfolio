@@ -102,7 +102,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'public/Samuel Ninsiima Resume.pdf', //paste the link to your resume here
+                  'Samuel Ninsiima Resume.pdf', //paste the link to your resume here
                   '_blank'
                 )
               }

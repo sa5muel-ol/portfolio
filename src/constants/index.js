@@ -65,44 +65,36 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
+    name: 'Python',
+    icon: 'tech/python.png',
   },
   {
-    name: 'CSS 3',
-    icon: css,
+    name: 'R',
+    icon: 'tech/r.png',
   },
   {
-    name: 'JavaScript',
-    icon: javascript,
+    name: 'c#',
+    icon: 'tech/c-sharp-c.svg',
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
+    name: 'Tableau',
+    icon: 'tech/tableau.png',
+  },
+  {
+    name: 'Power BI',
+    icon: 'tech/powerbi.png',
   },
   {
     name: 'React JS',
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'spark',
+    icon: 'public/tech/apache_spark.svg',
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
+    name: 'MySQL',
+    icon: 'tech/mysql.png',
   },
   {
     name: 'postgresql',
@@ -113,8 +105,16 @@ const technologies = [
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'aws',
+    icon: 'public/tech/aws.svg',
+  },
+  {
+    name: 'azure',
+    icon: 'tech/microsoft-azure.svg',
+  },
+  {
+    name: 'gcp',
+    icon: 'tech/google-cloud-platform.svg',
   },
   {
     name: 'docker',
@@ -163,8 +163,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Symos',
+    description: 'An agricultural linkages platform giving farmers access to premium markets.',
     tags: [
       {
         name: 'react',
@@ -179,15 +179,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: 'projects/symos.png',
+    //repo: 'https://github.com/shaqdeff/KomiKult',
+    demo: 'https://symos.io/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'DataBridge',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A Streamlit data migration platform enabling database-to-database and csv-to-database data transfer.',
     tags: [
       {
         name: 'react',
@@ -202,14 +202,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: '/projects/databridge.jpg',
+    repo: 'https://github.com/sa5muel-ol/DataBridge',
+    demo: 'https://databridge.streamlit.app/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'CNN Image Classifier',
+    description: 'An image classification app built using tensorflow and wrapped in a Streamlit app',
     tags: [
       {
         name: 'nextjs',
@@ -224,14 +224,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: 'projects/image_classifier.jpg',
+    repo: 'https://github.com/sa5muel-ol/happy-sad-tensorflow-cnn',
+    //demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Sales Dashboard',
+    description:
+      'A cool dashboard showing sales of a Fashion retain store.',
     tags: [
       {
         name: 'nextjs',
@@ -246,15 +247,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: 'projects/dashboard.png',
+    //repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+    demo: 'https://lookerstudio.google.com/reporting/7fe8e38d-f9b0-482e-925c-8d7a7013b777',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'FullStac Africa',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+        'This is a single-page app built with React for FulStac Africa.',
     tags: [
       {
         name: 'nextjs',
@@ -269,9 +270,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: 'projects/fullstac.jpg',
+    //repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+    demo: 'https://fullstac.africa/',
   },
 ];
 
