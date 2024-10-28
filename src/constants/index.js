@@ -124,7 +124,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Data Scientist / AI Acceleration Analyst',
+    title: 'Data Scientist',
     company_name: 'Arizona State University',
     icon: 'public/companies/asu.png',
     iconBg: '#333333',
@@ -161,11 +161,28 @@ const experiences = [
 ];
 
 const projects = [
-  
+  {
+    id: 'project-7',
+    name: 'Transaction Prediction',
+    description: 'Training a deep neural network to identify which customer will make a transaction.',
+    tags: [
+      {
+        name: 'python',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'ml',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: 'public/projects/customer.jpg',
+    //repo: 'https://github.com/shaqdeff/KomiKult',
+    //demo: 'https://symos.io/',
+  },
   {
     id: 'project-6',
-    name: 'NY Times Top Modeling',
-    description: 'Topic Modeling on NY Times Articles for the past 2 years using Latent Dirichlet Allocation (LDA) with Gensim.',
+    name: 'Topic Modeling',
+    description: 'Identifying the common themes in NY Times Articles for the past 2 years using Latent Dirichlet Allocation (LDA) with Gensim.',
     tags: [
       {
         name: 'react',
@@ -210,7 +227,7 @@ const projects = [
   {
     id: 'project-3',
     name: 'CNN Image Classifier',
-    description: 'An image classification app built using tensorflow and wrapped in a Streamlit app',
+    description: 'An image classification app built using tensorflow and wrapped in a Streamlit app.',
     tags: [
       {
         name: 'nextjs',
@@ -251,28 +268,6 @@ const projects = [
     image: 'projects/Australia.png',
     //repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
     demo: 'https://lookerstudio.google.com/reporting/7fe8e38d-f9b0-482e-925c-8d7a7013b777',
-  },
-  {
-    id: 'project-1',
-    name: 'Symos',
-    description: 'An agricultural linkages platform giving farmers access to premium markets.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: 'projects/symos.png',
-    //repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://symos.io/',
   },
   
 ];
