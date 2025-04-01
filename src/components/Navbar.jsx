@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { close, menu, logo, logotext } from '../assets';
@@ -7,6 +7,28 @@ import { close, menu, logo, logotext } from '../assets';
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleNavClick = (navId) => {
+    setActive(navId);
+    if (location.pathname !== '/') {
+      // If we're not on the home page, navigate to home first
+      navigate('/', { state: { scrollTo: navId } });
+    }
+  };
+
+  useEffect(() => {
+    // Handle scroll to section when navigating from another page
+    if (location.state?.scrollTo) {
+      const element = document.getElementById(location.state.scrollTo);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+      // Clear the state after scrolling
+      window.history.replaceState({}, document.title);
+    }
+  }, [location.state]);
 
   return (
     <nav
@@ -21,20 +43,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <img
-            src='adobe.png' // your logo comes here
+            src="/adobe.png"
             alt="logo"
             className="sm:w-[90px] sm:h-[90px] w-[90px] h-[90px] object-contain"
           />
-            
-          {/* if you have text you want besides your logo it comes here.
-          Otherwise delete this if you don't need it. */}
-            
-           <p className='logo-text'>samuel</p> 
-          {/*<img*/}
-          {/*  src={logotext}*/}
-          {/*  alt="logo"*/}
-          {/*  className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"*/}
-          {/*/>*/}
+          <p className='logo-text'>samuel</p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (
@@ -44,7 +57,7 @@ const Navbar = () => {
                 active === nav.title ? 'text-french' : 'text-eerieBlack'
               } hover:text-taupe text-[21px] font-medium font-mova 
                 uppercase tracking-[3px] cursor-pointer nav-links`}
-              onClick={() => setActive(nav.title)}>
+              onClick={() => handleNavClick(nav.id)}>
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
@@ -79,7 +92,7 @@ const Navbar = () => {
                       uppercase tracking-[1px] cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);
-                      setActive(nav.title);
+                      handleNavClick(nav.id);
                     }}>
                     <a href={`#${nav.id}`}>{nav.title}</a>
                   </li>

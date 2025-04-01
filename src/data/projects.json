@@ -1,0 +1,326 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "DataBridge",
+      "description": "A Streamlit data migration platform enabling database-to-database and csv-to-database data transfer.",
+      "categories": ["Business Intelligence", "Data Engineering", "Web Development"],
+      "tags": [
+        {
+          "name": "react",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "restapi",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "scss",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "komikult",
+      "repo": "https://github.com/sa5muel-ol/DataBridge",
+      "demo": "https://databridge.streamlit.app/",
+      "is_active": false,
+      "content": null
+    },
+    {
+      "id": 2,
+      "name": "CNN Image Classifier",
+      "description": "An image classification app built using tensorflow and wrapped in a Streamlit app.",
+      "categories": ["Machine Learning", "Computer Vision", "Web Development"],
+      "tags": [
+        {
+          "name": "nextjs",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "supabase",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "css",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "math-magicians",
+      "repo": "https://github.com/sa5muel-ol/happy-sad-tensorflow-cnn",
+      "demo": "https://inspiring-medovik-37d3b3.netlify.app/",
+      "is_active": false,
+      "content": null
+    },
+    {
+      "id": 3,
+      "name": "Sales Dashboard",
+      "description": "A cool dashboard showing sales of a Fashion retail store.",
+      "categories": ["Business Intelligence", "Data Visualization"],
+      "tags": [
+        {
+          "name": "nextjs",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "supabase",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "css",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "movie-metro",
+      "repo": "",
+      "demo": "https://lookerstudio.google.com/reporting/7fe8e38d-f9b0-482e-925c-8d7a7013b777",
+      "is_active": false,
+      "content": null
+    },
+    {
+      "id": 4,
+      "name": "Topic Modeling",
+      "description": "Identifying the common themes in NY Times Articles for the past 2 years using Latent Dirichlet Allocation (LDA) with Gensim.",
+      "categories": ["AI", "Natural Language Processing", "Data Analysis"],
+      "tags": [
+        {
+          "name": "react",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "mongodb",
+          "color": "green-text-gradient"
+        },
+        {
+          "name": "tailwind",
+          "color": "pink-text-gradient"
+        }
+      ],
+      "image": "leaderboard",
+      "repo": "",
+      "demo": "",
+      "is_active": false,
+      "content": null
+    },
+    {
+      "id": 5,
+      "name": "Transaction Prediction",
+      "description": "Training a deep neural network to identify which customer will make a transaction.",
+      "categories": ["Machine Learning", "Predictive Analytics"],
+      "tags": [
+        {
+          "name": "python",
+          "color": "blue-text-gradient"
+        },
+        {
+          "name": "ml",
+          "color": "green-text-gradient"
+        }
+      ],
+      "image": "space-hub",
+      "repo": "",
+      "demo": "https://symos.io/",
+      "is_active": false,
+      "content": null
+    },
+    {
+      "id": 6,
+      "name": "Customer Churn Prediction",
+      "description": "Predict customer churn for proactive retention strategies.",
+      "categories": ["Machine Learning", "Customer Analytics"],
+      "tags": [],
+      "image": "customer_churn",
+      "repo": "",
+      "demo": "",
+      "is_active": true,
+      "content": {
+        "problem": "Telecom companies face significant challenges with customer attrition. It is difficult to identify customers who are likely to leave, making it hard to implement timely retention strategies.",
+        "dataset": {
+          "Description": "IBM's sample data module tracks a fictional telco company's customer churn based on various factors. The dataset includes key columns such as churn (indicating if a customer departed in the last month), gender, dependents, monthly charges, and service details.",
+          "Source": "https://www.kaggle.com/datasets/blastchar/telco-customer-churn"
+        },
+        "solution": "Built a predictive model using data cleaning, exploratory analysis, feature engineering, and classification algorithms (logistic regression, decision trees, and random forests) to accurately forecast customer churn within two weeks.",
+        "tools_and_packages": [
+          "Python",
+          "pandas",
+          "NumPy",
+          "scikit-learn",
+          "matplotlib",
+          "Jupyter Notebook"
+        ],
+        "target_industries_sectors": [
+          "Telecommunications",
+          "Customer Relationship Management (CRM)",
+          "Business Analytics"
+        ],
+        "impact": "Accurate churn prediction allows businesses to develop targeted retention strategies, reducing customer loss and increasing revenue while enhancing overall customer relationship management."
+      }
+    },
+    {
+      "id": 7,
+      "name": "Repeat Customer Prediction",
+      "description": "Identify customers likely to make repeat purchases.",
+      "categories": ["Machine Learning", "Customer Analytics"],
+      "tags": [],
+      "image": "customer",
+      "repo": "",
+      "demo": "",
+      "is_active": true,
+      "content": {
+        "problem": "Businesses struggle to pinpoint which customers will make repeat purchases, hindering the effectiveness of targeted marketing campaigns.",
+        "dataset": {
+          "Description": "The dataset comprises 50,000 customer transactions from Walmart, including demographic details, product categories, purchase amounts, discounts, and ratings, capturing consumer shopping behavior.",
+          "Source": "https://www.kaggle.com/datasets/logiccraftbyhimanshi/walmart-customer-purchase-behavior-dataset"
+        },
+        "solution": "Conducted extensive data analysis and segmentation to understand shopping patterns and built classification models to predict repeat customer behavior.",
+        "tools_and_packages": [
+          "Python",
+          "pandas",
+          "NumPy",
+          "scikit-learn",
+          "matplotlib",
+          "Jupyter Notebook"
+        ],
+        "target_industries_sectors": [
+          "Retail",
+          "E-commerce",
+          "Marketing and Sales Analytics"
+        ],
+        "impact": "This framework enables personalized marketing strategies, optimizing customer retention and achieving higher ROI on marketing expenditures while refining customer segmentation."
+      }
+    },
+    {
+      "id": 8,
+      "name": "Additional Movie Recommendation",
+      "description": "Deliver personalized, mood-aware movie recommendations.",
+      "categories": ["AI", "Recommendation Systems"],
+      "tags": [],
+      "image": "movies",
+      "repo": "",
+      "demo": "",
+      "is_active": true,
+      "content": {
+        "problem": "Providing personalized movie recommendations is challenging due to the need to match content with both historical preferences and current moods.",
+        "dataset": {
+          "Description": "The Netflix dataset contains detailed movie information, including release year, duration, cast, summaries, ratings, subtitles, audio languages, and viewer mood.",
+          "Source": "https://www.kaggle.com/datasets/ashpalsingh1525/netflix"
+        },
+        "solution": "Designed a recommendation system that integrates content-based and collaborative filtering techniques, leveraging natural language processing to analyze movie summaries and metadata for mood alignment.",
+        "tools_and_packages": [
+          "Python",
+          "pandas",
+          "NumPy",
+          "scikit-learn",
+          "nltk",
+          "matplotlib",
+          "Jupyter Notebook"
+        ],
+        "target_industries_sectors": [
+          "Entertainment and Media",
+          "Streaming Services",
+          "Content Recommendation Systems"
+        ],
+        "impact": "Enhances user engagement by providing smarter, mood-aware recommendations, leading to longer viewing sessions, higher retention, and a competitive edge in the streaming market."
+      }
+    },
+    {
+      "id": 9,
+      "name": "Predicting Employee Churn Early On",
+      "description": "Identify early signs of employee attrition to reduce turnover.",
+      "categories": ["Business Intelligence", "HR Analytics"],
+      "tags": [],
+      "image": "employee_churn",
+      "repo": "",
+      "demo": "",
+      "is_active": true,
+      "content": {
+        "problem": "Employee turnover is costly and disruptive. Early identification of factors leading to employee churn is crucial for timely interventions and retention strategies.",
+        "dataset": {
+          "Description": "Created by IBM data scientists, this dataset provides insights into employee churn with variables related to work-life balance, compensation, job satisfaction, and other attrition drivers.",
+          "Source": "https://www.kaggle.com/datasets/ziya07/employee-churn-data"
+        },
+        "solution": "Conducted an in-depth analysis using classification algorithms with rigorous feature engineering and model tuning to predict employee churn early and highlight key drivers of attrition.",
+        "tools_and_packages": [
+          "Python",
+          "pandas",
+          "NumPy",
+          "scikit-learn",
+          "matplotlib",
+          "Jupyter Notebook"
+        ],
+        "target_industries_sectors": [
+          "Human Resources",
+          "Corporate Analytics",
+          "Organizational Development"
+        ],
+        "impact": "Enables organizations to implement targeted interventions and engagement programs, reducing turnover costs and ensuring a more stable, productive workforce."
+      }
+    },
+    {
+      "id": 10,
+      "name": "Yelp Reviews EDA and Sentiment Analysis",
+      "description": "Analyze Yelp reviews to extract actionable customer insights.",
+      "categories": ["AI", "Natural Language Processing", "Customer Analytics"],
+      "tags": [],
+      "image": "feedback",
+      "repo": "",
+      "demo": "",
+      "is_active": true,
+      "content": {
+        "problem": "Extracting actionable insights from large volumes of user-generated content is challenging, requiring advanced NLP techniques to understand customer sentiment and trends.",
+        "dataset": {
+          "Description": "The Yelp Open Dataset is a subset of Yelp's business data including reviews, photos, check-ins, and additional attributes such as hours, parking availability, and ambience.",
+          "Source": "https://business.yelp.com/data/resources/open-dataset/"
+        },
+        "solution": "Conducted exploratory data analysis on 8,000 Yelp reviews and developed a sentiment analysis pipeline by benchmarking BERT against other leading LLMs to classify reviews and extract human-readable topics.",
+        "tools_and_packages": [
+          "Python",
+          "pandas",
+          "NumPy",
+          "scikit-learn",
+          "transformers",
+          "matplotlib",
+          "Jupyter Notebook"
+        ],
+        "target_industries_sectors": [
+          "Hospitality and Food Services",
+          "Retail and Local Business Analytics",
+          "Customer Experience Management"
+        ],
+        "impact": "Provides rapid, detailed customer insights that drive timely operational adjustments, improved customer service, and more informed decision-making."
+      }
+    },
+    {
+      "id": 11,
+      "name": "RAG-Enhanced LLM for Classified Information Detection",
+      "description": "Automate document classification to detect sensitive information.",
+      "categories": ["AI", "Natural Language Processing", "Security"],
+      "tags": [],
+      "image": "cui",
+      "repo": "",
+      "demo": "",
+      "is_active": true,
+      "content": {
+        "problem": "Manual document review for classified information is labor-intensive and error-prone, posing significant risks to organizations handling sensitive data.",
+        "dataset": {
+          "Description": "Utilizes synthetic data generated via fine-tuned Ollama models to simulate various document types containing classified information, supplemented with industry-relevant examples.",
+          "Source": "Synthetic data generated using fine-tuned Ollama models"
+        },
+        "solution": "Developed a document classification pipeline integrating Retrieval-Augmented Generation (RAG) with a fine-tuned distilbert-base-uncased model. This approach uses synthetic data to accurately detect documents containing classified content.",
+        "tools_and_packages": [
+          "Python",
+          "pandas",
+          "NumPy",
+          "transformers",
+          "scikit-learn",
+          "matplotlib",
+          "Jupyter Notebook"
+        ],
+        "target_industries_sectors": [
+          "Security and Defense",
+          "Government and Regulatory Compliance",
+          "Enterprise Document Management"
+        ],
+        "impact": "Streamlines the document review process, significantly enhancing data security and operational efficiency. This leads to rapid, reliable detection of sensitive information and ensures regulatory compliance."
+      }
+    }
+  ]
+} 

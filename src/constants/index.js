@@ -29,6 +29,15 @@ import {
   microverse,
 } from '../assets';
 
+import {
+  komikult as komikultImg,
+  leaderboard as leaderboardImg,
+  math as mathImg,
+  movie as movieImg,
+  nyeusi as nyeusiImg,
+  space as spaceHub,
+} from '../assets/projects';
+
 export const navLinks = [
   {
     id: 'about',
@@ -175,7 +184,7 @@ const projects = [
         color: 'green-text-gradient',
       },
     ],
-    image: 'public/projects/customer.jpg',
+    image: spaceHub,
     //repo: 'https://github.com/shaqdeff/KomiKult',
     //demo: 'https://symos.io/',
   },
@@ -197,7 +206,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: 'public/projects/nytimes.webp',
+    image: leaderboardImg,
     //repo: 'https://github.com/shaqdeff/KomiKult',
     //demo: 'https://symos.io/',
   },
@@ -220,7 +229,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: '/projects/databridge.jpg',
+    image: komikultImg,
     repo: 'https://github.com/sa5muel-ol/DataBridge',
     //demo: 'https://databridge.streamlit.app/',
   },
@@ -242,7 +251,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: 'projects/image_classifier.jpg',
+    image: mathImg,
     repo: 'https://github.com/sa5muel-ol/happy-sad-tensorflow-cnn',
     //demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
@@ -265,11 +274,10 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: 'projects/Australia.png',
+    image: movieImg,
     //repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
     demo: 'https://lookerstudio.google.com/reporting/7fe8e38d-f9b0-482e-925c-8d7a7013b777',
   },
-  
 ];
 
 export { services, technologies, experiences, projects };
