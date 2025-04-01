@@ -9,6 +9,8 @@ export default defineConfig({
             failOnError: false,
             failOnWarning: false,
             include: ['src/**/*.js', 'src/**/*.jsx'],
+            cache: false,
+            lintOnStart: false,
         }),
     ],
     server: {
@@ -23,4 +25,12 @@ export default defineConfig({
         port: 5173, // you can replace this port with any port
         allowedHosts: ['samuelninsiima.com']
     },
+    build: {
+        sourcemap: true,
+        rollupOptions: {
+            output: {
+                manualChunks: undefined
+            }
+        }
+    }
 });
