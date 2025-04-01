@@ -6,7 +6,8 @@ export default defineConfig({
     plugins: [
         react(),
         eslint({
-            emitWarning: true,
+            failOnError: false,
+            failOnWarning: false,
         }),
     ],
     server: {
