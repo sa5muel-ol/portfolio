@@ -8,6 +8,7 @@ export default defineConfig({
         eslint({
             failOnError: false,
             failOnWarning: false,
+            include: ['src/**/*.js', 'src/**/*.jsx'],
         }),
     ],
     server: {
