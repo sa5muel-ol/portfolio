@@ -112,11 +112,6 @@ const ProjectDetails = () => {
             {/* Right Column - Project Details */}
             <div className="lg:w-1/2">
               <div className="flex flex-col gap-4">
-                <div>
-                  <h3 className="text-timberWolf text-xl font-bold mb-2">Description</h3>
-                  <p className="text-taupe">{project.description}</p>
-                </div>
-
                 {project.content && (
                   <div className="space-y-6">
                     <div>
@@ -197,29 +192,30 @@ const ProjectDetails = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="live-demo flex justify-between 
-                        sm:text-[16px] text-[14px] text-timberWolf 
-                        font-bold font-beckman items-center py-5 pl-2 pr-3 
-                        whitespace-nowrap gap-1 sm:w-[138px] sm:h-[50px] 
-                        w-[125px] h-[46px] rounded-[10px] glassmorphism 
-                        hover:bg-battleGray hover:text-eerieBlack 
-                        transition duration-[0.2s] ease-in-out"
+                        sm:text-[18px] text-[14px] text-timberWolf 
+                        font-bold font-beckman items-center py-5 pl-3 pr-3 
+                        whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
+                        w-[125px] h-[46px] rounded-[10px] bg-jetLight 
+                        sm:mt-[22px] mt-[16px] hover:bg-battleGray 
+                        hover:text-eerieBlack transition duration-[0.2s] 
+                        ease-in-out"
                       onMouseOver={() => {
                         document
-                          .querySelector('.btn-icon')
+                          .querySelector('.download-btn')
                           .setAttribute('src', pineappleHover);
                       }}
                       onMouseOut={() => {
                         document
-                          .querySelector('.btn-icon')
+                          .querySelector('.download-btn')
                           .setAttribute('src', pineapple);
                       }}>
+                      LIVE DEMO
                       <img
                         src={pineapple}
                         alt="pineapple"
-                        className="btn-icon sm:w-[34px] sm:h-[34px] 
+                        className="download-btn sm:w-[34px] sm:h-[34px] 
                           w-[30px] h-[30px] object-contain"
                       />
-                      LIVE DEMO
                     </a>
                   )}
                 </div>
