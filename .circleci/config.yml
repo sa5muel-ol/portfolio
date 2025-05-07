@@ -8,8 +8,9 @@ jobs:
     steps:
       - checkout
       # Install dependencies
-      - node/install-packages:
-          pkg-manager: npm
+      - run:
+          name: Install Dependencies
+          command: npm install
       # Run linting
       - run:
           name: Run ESLint
