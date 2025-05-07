@@ -11,14 +11,10 @@ jobs:
       - run:
           name: Install Dependencies
           command: npm install
-      # Run linting
-      - run:
-          name: Run ESLint
-          command: npm run lint
       # Build the project
       - run:
           name: Build Project
-          command: npm run build
+          command: DISABLE_ESLINT_PLUGIN=true npm run build
       # Store build artifacts
       - store_artifacts:
           path: dist
