@@ -37,6 +37,12 @@
   color-scheme: dark;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
 .nav-links::after {
   content: '';
   display: block;

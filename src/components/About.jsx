@@ -37,13 +37,10 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          Driven by a passion for data and artificial intelligence, I specialize in developing innovative and 
-          ethical AI solutions. With a solid foundation in data science and machine learning, I harness 
-          technology to create real-world impact, emphasizing transparency, fairness, and responsible AI
-          deployment. My expertise includes predictive modeling, data analytics, and integrating AI into 
-          business strategies, ensuring these advancements benefit society. Committed to driving business 
-          transformation and solving complex challenges, I strive to build a future where AI and data 
-          science serve humanity responsibly. Let’s collaborate to make this vision a reality.
+          I'm a Conversion Optimization Manager at Nextiva, where I run the CRO program for Nextiva.com and the self-serve checkout flow — from opportunity sizing through QA, launch, readout, and the decision that follows. I build the experimentation roadmap by impact and effort, set the metric, significance, and guardrail standards for every test, and ground hypotheses in user research.
+          <br />
+          <br />
+          As a Specialist, my tests moved revenue per visitor 5% site-wide and grew self-serve revenue's share by 10%. Before Nextiva, I built a BERT-based NLP model at Arizona State University that reads IT support tickets at 85% accuracy, and at Asigma I led a team of five engineers on a platform that connected 200,000+ farmers to premium markets. That modeling muscle is what I aim at one question now: what actually moves the number?
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

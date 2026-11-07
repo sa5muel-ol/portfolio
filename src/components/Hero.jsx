@@ -7,14 +7,14 @@ import { bwmap, worldmap } from '../assets';
 const Hero = () => {
   return (
     <>
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
+      <div className="absolute top-0 left-0 z-0 h-[100vh] w-full">
         <img
           src={bwmap}
           alt="world map"
           className="w-full h-full sm:block hidden object-cover"
         />
       </div>
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
+      <div className="absolute top-0 left-0 z-0 h-[100vh] w-full">
         <img
           src={worldmap}
           alt="world map"
@@ -46,11 +46,11 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              an aspiring data scientist passionate about leveraging ethical AI to develop solutions that make a meaningful impact.<br className="sm:block hidden" />
+              Conversion Optimization Manager at Nextiva. I own experimentation across Nextiva.com and the self-serve buying experience — the testing roadmap, the ship-or-kill call, and the number on visitor-to-lead and lead-to-customer conversion.<br className="sm:block hidden" />
             </p>
           </div>
           <div
-            className="w-screen flex flex-col items-start 
+            className="w-full flex flex-col items-start 
             justify-center sm:-ml-[3rem] xxs:mt-4"></div>
 
           <div></div>
