@@ -1,8 +1,26 @@
+import { copyFileSync } from "node:fs";
+import { resolve } from "node:path";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import eslint from "vite-plugin-eslint";
 
+function githubPages() {
+    return {
+        name: "github-pages",
+        apply: "build",
+        writeBundle(outputOptions) {
+            const distDir = outputOptions.dir || resolve("dist");
+            // GitHub Pages serves this file for unknown paths and keeps the URL,
+            // so a refresh on /projects/:id still loads the client-side router.
+            copyFileSync(resolve(distDir, "index.html"), resolve(distDir, "404.html"));
+            // Pages only keeps the custom domain when the uploaded artifact contains CNAME.
+            copyFileSync(resolve("CNAME"), resolve(distDir, "CNAME"));
+        },
+    };
+}
+
 export default defineConfig({
+    base: "/",
     plugins: [
         react(),
         eslint({
@@ -12,6 +30,7 @@ export default defineConfig({
             cache: false,
             lintOnStart: false,
         }),
+        githubPages(),
     ],
     server: {
         watch: {
