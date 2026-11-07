@@ -75,23 +75,23 @@ const services = [
 const technologies = [
   {
     name: 'Python',
-    icon: 'tech/python.png',
+    icon: '/tech/python.png',
   },
   {
     name: 'R',
-    icon: 'tech/r.png',
+    icon: '/tech/r.png',
   },
   {
     name: 'c#',
-    icon: 'tech/c-sharp-c.svg',
+    icon: '/tech/c-sharp-c.svg',
   },
   {
     name: 'Tableau',
-    icon: 'tech/tableau.png',
+    icon: '/tech/tableau.png',
   },
   {
     name: 'Power BI',
-    icon: 'tech/powerbi.png',
+    icon: '/tech/powerbi.png',
   },
   {
     name: 'React JS',
@@ -99,11 +99,11 @@ const technologies = [
   },
   {
     name: 'spark',
-    icon: 'public/tech/apache_spark.svg',
+    icon: '/tech/apache_spark.svg',
   },
   {
     name: 'MySQL',
-    icon: 'tech/mysql.png',
+    icon: '/tech/mysql.png',
   },
   {
     name: 'postgresql',
@@ -115,15 +115,15 @@ const technologies = [
   },
   {
     name: 'aws',
-    icon: 'public/tech/aws.svg',
+    icon: '/tech/aws.svg',
   },
   {
     name: 'azure',
-    icon: 'tech/microsoft-azure.svg',
+    icon: '/tech/microsoft-azure.svg',
   },
   {
     name: 'gcp',
-    icon: 'tech/google-cloud-platform.svg',
+    icon: '/tech/google-cloud-platform.svg',
   },
   {
     name: 'docker',
@@ -135,7 +135,7 @@ const experiences = [
   {
     title: 'Data Scientist',
     company_name: 'Arizona State University',
-    icon: 'public/companies/asu.png',
+    icon: '/companies/asu.png',
     iconBg: '#333333',
     date: 'Aug 2024 - Present',
   },
@@ -156,7 +156,7 @@ const experiences = [
   {
     title: 'Business Intelligence Analyst (Remote)',
     company_name: 'Everybody Loves Languages',
-    icon: 'public/companies/ell.png',
+    icon: '/companies/ell.png',
     iconBg: '#333333',
     date: 'Dec 2021 - Feb 2022',
   },
