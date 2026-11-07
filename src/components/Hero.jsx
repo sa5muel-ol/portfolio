@@ -46,7 +46,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Conversion Optimization Manager at Nextiva. I own experimentation across Nextiva.com and the self-serve buying experience — the testing roadmap, the ship-or-kill call, and the number on visitor-to-lead and lead-to-customer conversion.<br className="sm:block hidden" />
+              Conversion Optimization Manager at Nextiva. I own experimentation across Nextiva.com — the roadmap, the ship-or-kill call, and the number on conversion.<br className="sm:block hidden" />
             </p>
           </div>
           <div

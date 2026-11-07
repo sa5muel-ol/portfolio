@@ -87,7 +87,7 @@ const technologies = [
   },
   {
     name: 'Tableau',
-    icon: '/tech/tableau.png',
+    icon: '/tech/tableau.svg',
   },
   {
     name: 'Power BI',
@@ -139,8 +139,8 @@ const experiences = [
     iconBg: '#333333',
     date: 'Nov 2026 - Present',
     points: [
-      "Promoted from Specialist. Own the CRO program for Nextiva.com and the self-serve checkout flow — roadmap, ship/kill calls, and the number on visitor-to-lead and lead-to-customer conversion.",
-      "Mentor specialists and interns and set the review bar on test quality; own the CRO tool stack, including vendor management (Convert).",
+      "Own the CRO program for Nextiva.com and the self-serve checkout — the roadmap, the ship/kill call, and the conversion number.",
+      "Mentor specialists and interns; own the CRO tool stack, including vendor management (Convert).",
     ],
   },
   {
@@ -150,11 +150,10 @@ const experiences = [
     iconBg: '#333333',
     date: 'Dec 2025 - Nov 2026',
     points: [
-      "Owned the CRO strategy and experimentation roadmap aligned with revenue growth objectives.",
-      "Led A/B test design, execution, and statistical analysis across core conversion funnels — revenue per visitor +5% site-wide.",
-      "Spearheaded the self-serve signup motion for core and AI Receptionist — self-serve revenue contribution +10% as a share of total revenue.",
-      "Built AI-enabled CRO workflows that cut ideation-to-stakeholder-review time by 90% and accelerated experimentation velocity.",
-      "Built a growth marketing attribution system linking ad spend to down-funnel revenue — channel-level attribution accuracy +80%.",
+      "Led A/B testing across core funnels — revenue per visitor +5% site-wide.",
+      "Drove the self-serve signup motion — self-serve revenue share +10%.",
+      "Built AI-enabled CRO workflows — ideation-to-review time down 90%.",
+      "Built an attribution system linking ad spend to revenue — accuracy +80%.",
     ],
   },
   {
@@ -162,24 +161,21 @@ const experiences = [
     company_name: 'Nextiva',
     icon: '/companies/nextiva.svg',
     iconBg: '#333333',
-    date: 'Jun 2025 - Present',
+    date: 'Jun 2025 - Dec 2025',
     points: [
-      "Grew brand presence in LLM search results by 10% and LLM-based brand mentions ~8% week-on-week via automated content-gap analysis.",
-      "Built ETL pipelines (Salesforce + paid media → Looker Studio), eliminating manual pulls and data-divergence errors.",
-      "Built web-scraping pipelines across five major review platforms with a real-time reputation dashboard.",
-      "Built an OpenAI API-powered crawler auditing pricing on thousands of pages in under an hour (vs. days manually).",
+      "Grew brand presence in LLM search 10%; brand mentions ~8% week-on-week.",
+      "Built ETL and scraping pipelines feeding Looker Studio; cut pricing audits from days to under an hour.",
     ],
   },
   {
     title: 'Data Scientist / AI Engineer',
     company_name: 'Arizona State University',
     icon: '/companies/asu.png',
-    iconBg: '#333333',
+    iconBg: '#ffffff',
     date: 'Aug 2024 - May 2025',
     points: [
-      "Built a BERT-based NLP model on IT support tickets at 85% accuracy, surfacing real-time themes in support requests.",
-      "Built an AI evaluation engine in Python with DeepEval — 86% accuracy identifying chatbot bias, used by 50+ faculty and 70,000+ students.",
-      "Validated readiness of new R&D AI tools for secure deployment to 50+ faculty and 70,000 students.",
+      "Built a BERT NLP model on support tickets — 85% accuracy.",
+      "Built an AI evaluation engine (DeepEval) — 86% accuracy spotting chatbot bias; used by 50+ faculty and 70,000+ students.",
     ],
   },
   {
@@ -189,11 +185,9 @@ const experiences = [
     iconBg: '#333333',
     date: 'Nov 2019 - Jul 2024',
     points: [
-      "Led migration of a monolith to microservices, scalability +25%; earned promotion to Associate Software Engineer.",
-      "Led a team of 5 engineers on an agricultural linkage SaaS platform (.NET, ReactJS, SQL, Azure Service Bus) — performance +40%, 200k+ farmers reached premium markets.",
-      "Built a .NET platform with Power BI dashboards tracking livelihood restoration for 4,000+ households impacted by the EACOP project.",
-      "Built cost-visualization dashboards (SQL, Looker Studio) for USAID's FtF program — production optimization +20%, $1.5M+ raised for 20 businesses.",
-      "Built real-time performance-tracking dashboards (STATA, Python, Looker Studio) — efficiency +80%, adopted company-wide.",
+      "Led a monolith-to-microservices migration (+25% scalability); promoted to Associate Software Engineer.",
+      "Led 5 engineers on an agricultural SaaS platform — performance +40%, 200k+ farmers reached premium markets.",
+      "Built dashboards for USAID's FtF program (+20% production, $1.5M+ raised) and EACOP livelihood tracking (4,000+ households).",
     ],
   },
 ];

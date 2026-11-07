@@ -37,10 +37,10 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          I'm a Conversion Optimization Manager at Nextiva, where I run the CRO program for Nextiva.com and the self-serve checkout flow — from opportunity sizing through QA, launch, readout, and the decision that follows. I build the experimentation roadmap by impact and effort, set the metric, significance, and guardrail standards for every test, and ground hypotheses in user research.
+          I'm a Conversion Optimization Manager at Nextiva, where I run the CRO program for Nextiva.com and the self-serve checkout flow — the testing roadmap, the ship-or-kill call, and the number on conversion.
           <br />
           <br />
-          As a Specialist, my tests moved revenue per visitor 5% site-wide and grew self-serve revenue's share by 10%. Before Nextiva, I built a BERT-based NLP model at Arizona State University that reads IT support tickets at 85% accuracy, and at Asigma I led a team of five engineers on a platform that connected 200,000+ farmers to premium markets. That modeling muscle is what I aim at one question now: what actually moves the number?
+          As a Specialist, my tests lifted revenue per visitor 5% site-wide and grew self-serve revenue's share by 10%. Before Nextiva, I built a BERT model at ASU (85% accuracy) and led five engineers at Asigma on a platform connecting 200,000+ farmers to premium markets.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
